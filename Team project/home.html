@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home || BERG Creative</title>
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" type="text/css" href="teamWebsite.css">
+  <link rel="icon" type="text/css" href="icons.png">
+</head>
+<body>
+  <div id="headdd">
+  <header>
+<div class="navbar">
+  <img id="iconId" src="icons.png">
+  <h3 id="newTit" style="display: inline;">futureGen</h3>
+  <div class="dropdown">
+    <button class="dropbtn">LAN<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="#">TAM</a>
+      <a href="#">ENG</a>
+      <a href="#">GER</a>
+            <a href="#">FRE</a>
+    </div>  
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">OUR WORKS<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="location.html">LOCATION</a>
+      <a href="client.html">CLIENTS</a>
+    </div>  
+  </div>
+  <a href="About.html">ABOUT</a>
+  <div class="dropdown">
+    <button class="dropbtn">BLOG 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="gallery.html">GALLERY</a>
+      <a href="web.html">PLATFORM</a>      
+  </div>
+</div>
+<a href="home.html">HOME</a>
+</div>
+  </header>
+</div>
+
+
+<div id="img">
+  
+  <img class="mySlides" src="1.jpg" style="width:100%">
+  <img class="mySlides" src="2.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="5.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpeg" style="width:100%">
+  <img class="mySlides" src="7.jpeg" style="width:100%">
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot active"></span> 
+    <div class="txt">
+    <h1 id="p">A SMALL STUDIO IN NEW<br> YORK MAKING WEBSITES<br> AND KILLER APPS</h1>
+    
+
+    </div>
+
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000);
+}
+</script>
+</div>
+<div id="content">
+  <h1 id="a"><b>WELCOME TO BERG STUDIO</font></b></h1>
+  <h2> <b>App Development Company:</b></h2>
+<p id="c">  Technosoft is a mobile app development company that makes your business<br> a touch away on iPhone, Android or iPad.We develop creative and customer<br>centric mobile apps to give your users and customers a ceaseless friendly<br> experience. Our proficient developers and pas.sionate designers turn you<br>unfashioned ideas into user-satisfying products. Without limiting ourselves,<br> we match your energy and serve worldwide. Let’s discuss your ideas.</p>
+<h2 id="b"><b>Mobile Application Development:</b></h2>
+<p id="d">
+  It is crystal clear that the demand of mobile apps has escalated<br> in all businesses. To cope with that, we become your accelerator<br> to design and develop brilliant mobile applications. 360 Degree<br>Technosoft is a top-notch mobile app development company offering<br> mobile application development services for iPhone, iPad and Android.</p>
+  <img id="s" src="side.png">
+</div>
+<div id="l">
+<a href="About.html"><button type="button" id="img1" src="About.html">Our Team
+</button></a>
+</div>
+<!-- <script>
+  function addimg()
+  {
+    document.getElementById("img").innerHTML = "<img src='abc.jpg'/>"
+  }
+</script> -->
+<div id="foot">
+  <footer>
+<a href="https://www.facebook.com/"><img src="index.png" class="social"></a>
+<a href="https://www.youtube.com/"><img src="youtube.png" class="social"></a>
+<a href="https://www.instagram.com/"><img src="insta.png" class="social"></a>
+<a href="https://www.twitter.com/"><img src="tweet.png" class="social"></a>
+</footer>
+</div>
+</body>
+</html>

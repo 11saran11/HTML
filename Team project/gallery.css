@@ -1,0 +1,65 @@
+body
+{
+	background :none;
+}
+h1
+{
+	position: relative;
+	top: 30px;
+	text-align: center;
+	padding-top: 0px;
+	color:cadetblue ;
+	font-family: MS Reference Sans Serif;
+}
+.slides
+{
+ position: absolute;
+ top:100px;
+ left:75px;
+}
+.mySlides
+{
+	border-radius: 30px;
+}
+.six
+{
+	border-radius: 20px;
+	position: relative;
+	bottom: 550px;
+	left: 30px;
+    transition: 1s;
+    padding: 45px 5px;
+    background-color:lightgrey;
+    color:black;
+    font-size: 25px;
+}
+.six:active
+{
+	background:green;
+	box-shadow: 0 5px grey;
+	transform: translatey(4px);
+}
+.six:hover
+{
+	background-color: black;
+	color:white;
+}
+
+.seven
+{
+	border-radius: 20px;
+	position: relative;
+	bottom: 550px;
+	right:-1110px;
+    transition: 1s;
+    padding: 45px 5px;
+    background-color:lightgrey;
+    color:black;
+    font-size: 25px;
+}
+.seven:hover
+{
+	background-color: black;
+	color:white;
+}
+

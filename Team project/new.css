@@ -1,0 +1,128 @@
+.pic
+{
+ max-width: 500px;
+ height: 300px;
+}
+#ram
+{
+	position: absolute;
+	top:390px;
+	left:  1100px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+		
+}
+#nirmal
+{
+	position: absolute;
+	top:210px;
+	left:  1000px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+	
+	
+}
+#anandh
+{
+	position: absolute;
+	top:210px;
+	left: 200px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+}
+#harish
+{
+	position: absolute;
+	top:390px;
+	left:  100px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+}
+#sugu
+{
+	position: absolute;
+	top:70px;
+	left:  600px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+}
+#santhosh
+{
+	position: absolute;
+	top:130px;
+	left:  400px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+	
+}
+#saran
+{
+	position: absolute;
+	top:130px;
+	left:  800px;
+	height: 100px;
+	width:100px;
+	border-radius:100%;
+}
+#one
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:490px;
+	left:1100px;
+}
+#two
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:310px;
+	left:1000px;
+}
+#three
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:310px;
+	left:200px;
+}
+#four
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:490px;
+	left:100px;
+}
+#five
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:170px;
+	left:600px;
+}
+#six
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:230px;
+	left:400px;
+}
+#seven
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top:230px;
+	left:800px;
+}
+#unique
+{
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}

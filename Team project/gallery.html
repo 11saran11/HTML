@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Gallerry</title>
+<link rel="stylesheet" href="gallery.css">
+<link rel="stylesheet" type="text/css" href="teamWebsite.css">
+<link rel="icon" type="text/css" href="icons.png">
+</head>
+<style>
+	.mySlides
+	{
+		display: none;
+	}
+</style>
+<body>
+  <div id="headdd">
+  <header>
+<div class="navbar">
+  <img id="iconId" src="icons.png">
+  <h3 id="newTit" style="display: inline;">futureGen</h3>
+  <div class="dropdown">
+    <button class="dropbtn">LAN<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="#">TAM</a>
+      <a href="#">ENG</a>
+      <a href="#">GER</a>
+            <a href="#">FRE</a>
+    </div>  
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">OUR WORKS<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="location.html">LOCATION</a>
+      <a href="client.html">CLIENTS</a>
+    </div>  
+  </div>
+  <a href="About.html">ABOUT</a>
+  <div class="dropdown">
+    <button class="dropbtn">BLOG 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="gallery.html">GALLERY</a>
+      <a href="web.html">PLATFORM</a>      
+  </div>
+</div>
+<a href="home.html">HOME</a>
+</div>
+  </header>
+</div>
+
+<h1><strong>App We Developed</strong></h1>
+<div class="slides" style="max-width: 1200px; max-height: 600px;">
+<img class="mySlides" src="bia3.jpg" style="width: 1200px; height: 600px;">
+<img class="mySlides" src="hike.png" style="width: 1200px; height: 600px;" >
+<img class="mySlides" src="myntra.png" style="width: 1200px; height: 600px;">
+<img class="mySlides" src="Airbrush.png" style="width: 1200px; height: 600px;">
+<img class="mySlides" src="Byjus.jpg" style="width: 1200px; height: 600px;">
+<button class="six" onclick="plusDivs(-1)">&#10094;</button>
+<button class="seven" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+<div id="foot">
+  <footer>
+<a href="https://www.facebook.com/"><img src="index.png" class="social"></a>
+<a href="https://www.youtube.com/"><img src="youtube.png" class="social"></a>
+<a href="https://www.instagram.com/"><img src="insta.png" class="social"></a>
+<a href="https://www.twitter.com/"><img src="tweet.png" class="social"></a>
+</footer>
+</div>
+</body>
+</html>

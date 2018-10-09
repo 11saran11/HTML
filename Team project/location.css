@@ -1,0 +1,35 @@
+#divFrame
+{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	height: 620px;
+	width: 600px;
+	border-style: none;
+	background-color: grey;
+	text-align: center;
+}
+#locHead
+{
+	font-family: MS Reference Sans Serif;
+	color: white;
+
+}
+#frameMap
+{
+	position: absolute;
+	left: 50px;
+	top: 75px;
+	border-style: none;
+	z-index: 1;
+}
+#locdef
+{
+	text-align: justify;
+	font-family: MS Reference Sans Serif;
+	position: absolute;
+	top: 65px;
+	left: 610px;
+	font-size: 30px; 
+}
+
